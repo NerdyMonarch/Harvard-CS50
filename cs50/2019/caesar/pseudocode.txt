@@ -1,0 +1,17 @@
+Wait for Command to be Inputed
+  If Command is more than two arguements, request for command again till given.
+  Else move forward
+Declare k = (User's Second Value);
+
+Ask user for plaintext
+Declare plainText = (String);
+
+  For every letter in the plainText {
+    k = (plainText[i] + key) % 26;
+    print(k as a string);
+  }
+  print (new line);
+  
+    
+
+  

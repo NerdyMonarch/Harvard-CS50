@@ -1,0 +1,23 @@
+Check if 2 arguements are provided
+  If they aren't, return an error message
+Check if the keyword provided is fully alphabetical.
+  If it isn't, return an error message
+For each letter in the keyword
+  Convert each letter of the keyword to a ascii number
+  Convert ascii number into a alphabetic code
+  Store the code into an array
+Prompt User for the plain text
+For each character in the plain text
+  If character is a space
+    Print space
+  If the letter is an uppercase
+    Turn uppercase into alphabetical code
+    Encrypt using the keyword array
+    Turn alpha code to ascii
+  If the letter is a lowercase
+    Turn uppercase into alphabetical code
+    Encrypt using the keyword array
+    Turn alphacode to ascii
+  
+
+    
